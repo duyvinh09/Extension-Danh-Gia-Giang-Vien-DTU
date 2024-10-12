@@ -40,7 +40,16 @@ Hướng dẫn này sẽ giúp bạn tự động điền thông tin đánh giá
     console.log("Đã tự động nhập thành công!");
     ```
 
-2. Nhấn **Enter** để chạy đoạn mã.
+2. Nếu bạn gặp thông báo cảnh báo sau khi dán mã:
+
+    ```
+    Warning: Don’t paste code into the DevTools Console that you don’t understand or haven’t reviewed yourself. This could allow attackers to steal your identity or take control of your computer. Please type ‘allow pasting’ below and hit Enter to allow pasting.
+    ```
+
+    - Nhập **allow pasting** vào Console và nhấn **Enter** để cấp phép dán mã.
+    - Sau đó, dán lại đoạn mã trên vào Console.
+
+3. Nhấn **Enter** để chạy đoạn mã.
 
 ## Bước 4: Kiểm tra kết quả
 
