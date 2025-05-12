@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Đánh giá Nhanh - DTU",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "96": "icons/favicon-96x96.png",
+      "192": "icons/favicon-192x192.png",
+      "512": "icons/favicon-512x512.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://mydtu.duytan.edu.vn/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://mydtu.duytan.edu.vn/sites/index.aspx?p=home_ratingform*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "96": "icons/favicon-96x96.png",
+    "192": "icons/favicon-192x192.png",
+    "512": "icons/favicon-512x512.png"
+  }
+}
