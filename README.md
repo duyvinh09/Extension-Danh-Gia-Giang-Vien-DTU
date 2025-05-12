@@ -64,8 +64,8 @@ Hướng dẫn này cung cấp hai cách để tự động điền thông tin �
 
 ### Bước 1: Tải và cài đặt tiện ích
 1. Tải tệp ZIP của tiện ích bằng một trong hai cách sau:
-   - **Cách 1**: Nhấp vào liên kết này để tải trực tiếp: [DTU-extension.zip](https://github.com/duyvinh09/Script-Danh-Gia-Giang-Vien/releases/download/extension/DTU-extension.zip).
-   - **Cách 2**: Truy cập [https://github.com/duyvinh09/Script-Danh-Gia-Giang-Vien](https://github.com/duyvinh09/Script-Danh-Gia-Giang-Vien), nhấp vào nút **Code** (nút màu xanh lá cây gần góc trên bên phải của trang).
+   - **Cách 1**: Nhấp vào liên kết này để tải trực tiếp: [DTU-extension.zip](https://github.com/duyvinh09/Extension-Danh-Gia-Giang-Vien-DTU/releases/download/extension/DTU-extension.zip).
+   - **Cách 2**: Truy cập [https://github.com/duyvinh09/Extension-Danh-Gia-Giang-Vien-DTU](https://github.com/duyvinh09/Extension-Danh-Gia-Giang-Vien-DTU), nhấp vào nút **Code** (nút màu xanh lá cây gần góc trên bên phải của trang).
 
      ![Screenshot of Download ZIP option](https://github.com/user-attachments/assets/2c4325ce-bbb8-408b-bedf-2eec20ceb214)
 
@@ -105,7 +105,7 @@ Hướng dẫn này cung cấp hai cách để tự động điền thông tin �
 
 ## Liên hệ
 
-Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào, hãy mở một Issue trên [GitHub](https://github.com/duyvinh09/Script-Danh-Gia-Giang-Vien) hoặc liên hệ với mình qua [Email](mailto:dinhduyvinh69@gmail.com).
+Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào, hãy mở một Issue trên [GitHub](https://github.com/duyvinh09/Extension-Danh-Gia-Giang-Vien-DTU) hoặc liên hệ với mình qua [Email](mailto:dinhduyvinh69@gmail.com).
 
 ---
 
