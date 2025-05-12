@@ -7,8 +7,7 @@ if (window.location.href.includes('https://mydtu.duytan.edu.vn/sites/index.aspx?
                     const radio = document.getElementById(radioId);
                     if (radio) {
                         radio.checked = true;
-                        const event = new Event('change', { bubbles: true });
-                        radio.dispatchEvent(event);
+                        radio.dispatchEvent(new Event('change', { bubbles: true }));
                     }
                 }
                 
@@ -17,21 +16,22 @@ if (window.location.href.includes('https://mydtu.duytan.edu.vn/sites/index.aspx?
                     const textarea = document.getElementById(textareaId);
                     if (textarea) {
                         textarea.value = request.text;
-                        const event = new Event('input', { bubbles: true });
-                        textarea.dispatchEvent(event);
+                        textarea.dispatchEvent(new Event('input', { bubbles: true }));
                     }
                 }
                 
-                const element = document.getElementById('52');
-                if (element) {
-                    element.scrollIntoView({ behavior: 'smooth' });
-                }
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: 'smooth'
+                });
+
+                sendResponse({ success: true });
                 
-                console.log({result: "Đã tự động nhập thành công!"});
             } catch (error) {
-                console.log({result: "Có lỗi xảy ra: " + error.message});
+                console.error('Lỗi khi thực hiện autoRate:', error);
+                sendResponse({ success: false, error: error.message });
             }
+            return true;
         }
-        return true;
     });
 }

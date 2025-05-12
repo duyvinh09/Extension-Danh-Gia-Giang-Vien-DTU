@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "Đánh giá Nhanh - DTU",
   "version": "1.0",
+  "description": "Tiện ích hỗ trợ sinh viên Đại học Duy Tân đánh giá giảng viên nhanh chóng và dễ dàng. Tự động điền đánh giá đồng loạt theo mức độ bạn chọn, tiết kiệm thời gian khi thực hiện khảo sát cuối kỳ.",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
@@ -11,9 +12,7 @@
     }
   },
   "permissions": ["activeTab"],
-  "host_permissions": [
-    "https://mydtu.duytan.edu.vn/*"
-  ],
+  "host_permissions": ["https://mydtu.duytan.edu.vn/*"],
   "content_scripts": [
     {
       "matches": ["https://mydtu.duytan.edu.vn/sites/index.aspx?p=home_ratingform*"],
