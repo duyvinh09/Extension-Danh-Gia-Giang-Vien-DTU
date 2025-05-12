@@ -63,18 +63,19 @@ Hướng dẫn này cung cấp hai cách để tự động điền thông tin �
 ## Cách 2: Sử dụng Tiện Ích Mở Rộng Chrome
 
 ### Bước 1: Tải và cài đặt tiện ích
+1. Tải tệp ZIP của tiện ích bằng một trong hai cách sau:
+   - **Cách 1**: Nhấp vào liên kết này để tải trực tiếp: [DTU-extension.zip](https://github.com/duyvinh09/Script-Danh-Gia-Giang-Vien/releases/download/extension/DTU-extension.zip).
+   - **Cách 2**: Truy cập [https://github.com/duyvinh09/Script-Danh-Gia-Giang-Vien](https://github.com/duyvinh09/Script-Danh-Gia-Giang-Vien), nhấp vào nút **Code** (nút màu xanh lá cây gần góc trên bên phải của trang).
 
+     ![Screenshot of Download ZIP option](https://github.com/user-attachments/assets/2c4325ce-bbb8-408b-bedf-2eec20ceb214)
+
+     Khi menu dropdown hiện ra, nhấp vào **Download ZIP** để tải tệp ZIP về máy tính.
 1. Truy cập [https://github.com/duyvinh09/Script-Danh-Gia-Giang-Vien](https://github.com/duyvinh09/Script-Danh-Gia-Giang-Vien).
-2. Nhấp vào nút **Code** (nút màu xanh lá cây gần góc trên bên phải của trang).
-3. Khi menu dropdown hiện ra, nhấp vào **Download ZIP** để tải tệp ZIP về máy tính.
-
-    ![Screenshot of Download ZIP option](https://github.com/user-attachments/assets/2c4325ce-bbb8-408b-bedf-2eec20ceb214)
-
-4. Giải nén tệp ZIP vừa tải vào một thư mục trên máy tính.
-5. Mở trình duyệt Chrome và truy cập **chrome://extensions/**.
-6. Bật **Chế độ dành cho nhà phát triển** (Developer mode) ở góc trên bên phải.
-7. Nhấp vào **Tải tiện ích không được đóng gói** (Load unpacked) và chọn thư mục chứa tiện ích đã giải nén.
-8. Tiện ích sẽ được thêm vào Chrome.
+2. Giải nén tệp ZIP vừa tải vào một thư mục trên máy tính.
+3. Mở trình duyệt Chrome và truy cập **chrome://extensions/**.
+4. Bật **Chế độ dành cho nhà phát triển** (Developer mode) ở góc trên bên phải.
+5. Nhấp vào **Tải tiện ích không được đóng gói** (Load unpacked) và chọn thư mục chứa tiện ích đã giải nén.
+6. Tiện ích sẽ được thêm vào Chrome.
 
 ### Bước 2: Sử dụng tiện ích
 
