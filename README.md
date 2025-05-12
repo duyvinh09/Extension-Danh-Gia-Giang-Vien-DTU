@@ -70,7 +70,6 @@ Hướng dẫn này cung cấp hai cách để tự động điền thông tin �
      ![Screenshot of Download ZIP option](https://github.com/user-attachments/assets/2c4325ce-bbb8-408b-bedf-2eec20ceb214)
 
      Khi menu dropdown hiện ra, nhấp vào **Download ZIP** để tải tệp ZIP về máy tính.
-1. Truy cập [https://github.com/duyvinh09/Script-Danh-Gia-Giang-Vien](https://github.com/duyvinh09/Script-Danh-Gia-Giang-Vien).
 2. Giải nén tệp ZIP vừa tải vào một thư mục trên máy tính.
 3. Mở trình duyệt Chrome và truy cập **chrome://extensions/**.
 4. Bật **Chế độ dành cho nhà phát triển** (Developer mode) ở góc trên bên phải.
