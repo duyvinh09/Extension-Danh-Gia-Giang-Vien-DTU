@@ -95,6 +95,9 @@ Hướng dẫn này cung cấp hai cách để tự động điền thông tin �
 - Sau khi nhấp **Xác nhận**, các câu từ **Câu 1** đến **Câu 48** sẽ được chọn theo xếp loại bạn đã chọn, và các câu từ **Câu 49** đến **Câu 52** sẽ được điền nội dung bạn đã nhập (hoặc giá trị mặc định nếu bỏ trống).
 - Đánh giá sẽ được tự động gửi, và bạn sẽ thấy thông báo xác nhận từ hệ thống DTU.
 
+### Video Hướng Dẫn Chi Tiết
+
+Bạn có thể xem video hướng dẫn chi tiết tại đây: [Video](https://youtu.be/CKKBY845keM)
 ---
 
 ## Lưu ý
