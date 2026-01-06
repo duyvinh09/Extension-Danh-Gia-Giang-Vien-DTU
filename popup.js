@@ -27,10 +27,19 @@ document.addEventListener('DOMContentLoaded', function() {
             const customText = document.getElementById('customText').value;
             const finalText = customText.trim() === '' ? getDefaultText(ratingValue) : customText;
             
+            // Tự động xử lý câu 53: map ngược từ đánh giá giảng viên sang mức độ hài lòng
+            let question53Value;
+            if (ratingValue === '1') question53Value = '5'; // Tốt -> Rất hài lòng
+            else if (ratingValue === '2') question53Value = '4'; // Khá -> Hài lòng  
+            else if (ratingValue === '3') question53Value = '3'; // Trung Bình -> Phân vân
+            else if (ratingValue === '4') question53Value = '2'; // Trung Bình Yếu -> Không hài lòng
+            else if (ratingValue === '5' || ratingValue === '6') question53Value = '1'; // Yếu/Kém -> Rất không hài lòng
+            
             chrome.tabs.sendMessage(currentTab.id, {
                 action: 'autoRate',
                 optionChar: optionChar,
-                text: finalText
+                text: finalText,
+                question53: question53Value
             }, function(response) {
                 if (chrome.runtime.lastError) {
                     showNotification(`Lỗi: ${chrome.runtime.lastError.message}`, 'error', 'exclamation-circle');

@@ -38,8 +38,14 @@ Hướng dẫn này cung cấp hai cách để tự động điền thông tin �
         }
     }
 
-    alert("Đã tự động nhập thành công!");
-    console.log("Đã tự động nhập thành công!");
+    const radio53 = document.getElementById('R52E');
+    if (radio53) {
+        radio53.checked = true;
+        checkOption('R52E');
+    }
+
+    alert("Đã tự động nhập thành công bao gồm câu 53!");
+    console.log("Đã tự động nhập thành công bao gồm câu 53!");
     ```
 
 2. Nếu bạn gặp thông báo cảnh báo sau khi dán mã:
@@ -55,8 +61,8 @@ Hướng dẫn này cung cấp hai cách để tự động điền thông tin �
 
 ### Bước 4: Kiểm tra kết quả
 
-- Sau khi nhấn **Enter**, bạn sẽ thấy thông báo "Đã tự động nhập thành công!".
-- Lúc này, các câu từ **Câu 1** đến **Câu 48** sẽ được tự động chọn, và các câu từ **Câu 49** đến **Câu 52** sẽ được tự động điền giá trị là "Rất Tốt".
+- Sau khi nhấn **Enter**, bạn sẽ thấy thông báo "Đã tự động nhập thành công bao gồm câu 53!".
+- Lúc này, các câu từ **Câu 1** đến **Câu 48** sẽ được tự động chọn, các câu từ **Câu 49** đến **Câu 52** sẽ được tự động điền giá trị là "Rất Tốt", và câu **Câu 53** sẽ được tự động chọn đáp án "Rất hài lòng".
 
 ---
 
